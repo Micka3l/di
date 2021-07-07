@@ -1,0 +1,18 @@
+.container{
+	border: 1px solid black;
+	font-size: 18px;
+	height: 100%;
+	width: 100px;
+}
+
+.row{
+	border: 1px solid black;
+	padding: 10px;
+	width: 100px;
+}
+
+.col-md-4, .col-md-8 {
+	border: 1px solid black;
+	height: 100%;
+	width: 100px;
+}

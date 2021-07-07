@@ -1,0 +1,35 @@
+/*h1 {
+    color: red;
+	border-style: solid;
+	border-width: 5px;
+  	border-color: black;
+  	background-color: green;
+  	margin: 100px;
+  	padding: 100px;
+}*/
+ 
+ .flag {
+ 	width: 400px;
+ 	height: 400px;
+ 	margin-top: 100px;
+ 	margin-left: 400px;
+
+ }
+
+ .blue, .white, .red {
+ 	display: inline-block;
+ 	height: 50%;
+ 	width: 100px;
+ }
+
+ .blue {
+ 	background-color: blue;
+ }
+
+ .white {
+ 	background-color: white;
+ }
+
+ .red {
+ 	background-color: red;
+ }

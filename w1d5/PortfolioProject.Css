@@ -1,0 +1,9 @@
+body{
+	background-color: black;
+}
+.container{
+	margin-left: 0;
+	width: 100%;
+ 	height: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1UHC8lc5tr6-f0P1wVtWBF9JZG6O-PK-vQ&usqp=CAU);
+}
