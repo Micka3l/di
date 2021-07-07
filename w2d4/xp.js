@@ -67,17 +67,17 @@
 // let sum = 0;
 // let outcome = " ";
 
-// function isDivisible() {
-//     for (let i = 0; i <= 500; i++) {
-//         if (i % 23 == 0) {
-//         sum += i
-//         outcome += (i + " ")
-//         }
-//     } return sum               
-// }
-// isDivisible(); 
-// console.log("Sum:" + (sum));
-// console.log("Outcome:" + (outcome));
+function isDivisible() {
+    for (let i = 0; i <= 500; i++) {
+        if (i % 23 == 0) {
+        sum += i
+        outcome += (i + " ")
+        }
+    } return sum               
+}
+isDivisible(); 
+console.log("Sum:" + (sum));
+console.log("Outcome:" + (outcome));
 
 // exercise 5 
 
