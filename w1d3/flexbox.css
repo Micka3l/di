@@ -11,12 +11,12 @@
     }
 
 .box {
-        background-color: aqua;
-        align-items: center;
-        height: 50px;
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
+    background-color: aqua;
+    align-items: center;
+    height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 
 .first, .third {
@@ -28,7 +28,7 @@
 }
 
 .second {
-    align-self: flex-end;
+    align-self: center;
     height: 200px;
     width: 30%;
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyChat</title>
+    <link rel="stylesheet" href="hackathon.css">
+</head>
+<body>    
+ 
+    <div id="topNav" class="myTopNav">
+        <input type="text" onfocus="this.value=``" value="Search Contact"></input>
+        <a href="#">Profile</a>
+        <h1>MyChat</h1>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- <h2>Chat Room</h2> -->
+    
+    <div class="box">
+        <div id="sideNav" class="mySideNav">
+            <div>
+                <form id="form" name="form" action="area" onsubmit="return sign()">
+                    <label for="uname">Username :</label><br>
+                    <input type="text" id="uname" name="uname" value=""><br>
+                    <label for="uname">password :</label><br>
+                    <input type="password" id="pass" name="pass" value=""><br><br>
+                    <!-- <input id="sign" type="submit" value="Sign up"> -->
+                    <!-- <input type="submit" value="Login">  -->
+                </form>
+            </div>
+            <button>Login</button>
+            <br>
+            <a href="#">generalRoom</a>
+            <a href="#">privateRoom</a>
+        </div>
+        
+        <div id="myArea" class="myArea">Contact</div>  
+        
+        <div id="myArea2" class="myArea2">
+            <p id="message"></p>
+    
+        </div>
+    </div>
+    
+    <input id="myInput" class="chat" type="text">
+    <button id="btn" type="button" onclick="getInputValue()">Send</button>
+    </input>
+
+    <script src="hackathon.js"></script>
+</body>
+</html>

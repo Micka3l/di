@@ -1,9 +1,11 @@
-let fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
-fruits.splice(0,1);
-fruits.sort();
-fruits.push("Kiwi");
-delete fruits[1];
-fruits.reverse();
+// let fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
+// fruits.splice(0,1);
+// fruits.push("Kiwi");
+// fruits.sort();
+// delete fruits[1];
+// fruits.reverse();
+// console.log(fruits);
 
 let moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-console.log(fruits);
+moreFruits.indexOf("Oranges");
+console.table(moreFruits[0],[0],[0]);

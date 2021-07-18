@@ -1,16 +1,18 @@
-let stars = "*";
-
-// nested loop (loop in loop)
-for (let i = 0; i <= 7; i++) {
-    let space = "";
-    for (let two = 1; two < i; two++) {
-        space+= "*"
-        
-    } 
-    console.log(space)   
-}
-
-// console.log(stars);
-// for (let i = 1; i <= 6; i++) {
-//     console.log(starts.repeat(i))   
-// }
+// function starFrame(){
+//   let userInput = prompt("Input as many words but separated by commas without any spaces: ");
+//   let arrUser = userInput.split(','); 
+//   //Catch largest word
+//   let wordLargest = 0;
+//   for (item of arrUser){
+//       if (item.length>wordLargest){
+//           wordLargest = item.length;
+//       }
+//   }
+//   //output frame
+//   console.log("*".repeat(wordLargest+4));
+//   for (let i=0; i<arrUser.length;i++){
+//       console.log("* " + arrUser[i] + " ".repeat(wordLargest-arrUser[i].length) + " *");
+//   }
+//   console.log("*".repeat(wordLargest+4));
+//   }
+//   starFrame();

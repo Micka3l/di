@@ -1,36 +1,38 @@
-// exercise 1
-let x = 5;
-let y = 2;
+// // exercise 1
+// let x = 5;
+// let y = 2;
 
-if (x > y){
-    console.log("x is the biggest number")
-} 
-else {
+// if (x > y){
+//     console.log("x is the biggest number")
+// } 
+// else {
     
-}
+// }
 
-// exercise 2
-let newDog = "Chihuahua";
-let pet = newDog.length;
-console.log(pet);
-console.log(newDog);
+// // exercise 2
+// let newDog = "Chihuahua";
+// let pet = newDog.length;
+// console.log(newDog.toUpperCase());
+// console.log(newDog.toLowerCase());
+// console.log(pet);
+// console.log(newDog);
 
-if (newDog === "Chihuahua"){
-    console.log("I love Chihuahua, it's my favorite dog breed")
-} 
-else {
-    console.log("I dont care, I prefer cats")
-}
+// if (newDog === "Chihuahua"){
+//     console.log("I love Chihuahua, it's my favorite dog breed")
+// } 
+// else {
+//     console.log("I dont care, I prefer cats")
+// }
 
-// exercise 3
-let numb = prompt("choose a number");
+// // exercise 3
+// let numb = prompt("choose a number");
 
-if (numb % 2 == 0){
-    console.log ("x is an even number")
-} 
-else {
-    console.log("x is an odd number")
-}
+// if (numb % 2 == 0){
+//     console.log ("x is an even number")
+// } 
+// else {
+//     console.log("x is an odd number")
+// }
 
 // exercise 4
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
